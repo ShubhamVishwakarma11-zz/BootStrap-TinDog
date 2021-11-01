@@ -1,0 +1,21 @@
+#title {
+    background-color: #ff4c68;
+}
+
+/*
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid {
+    padding: 3% 15%;
+    
+}
