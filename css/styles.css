@@ -14,7 +14,6 @@ h1{
     font-size: 3.5rem;
     font-weight: bold;
     line-height: 1.5;
-    color: white;
 }
 
 h2 {
@@ -22,11 +21,11 @@ h2 {
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.5;
-    color: white;
 }
 
 body {
     font-family: 'Montserrat-Black', sans-serif;
+    position:relative
 }
 
 .NavBar-Title-Container {
@@ -66,6 +65,7 @@ body {
     padding: 5% 13%;
     height: auto;
     text-align: center;
+    background-color: white;
 }
 
 .features-container h3 {
@@ -101,6 +101,9 @@ body {
     background-color: #EF8172;
 }
 
+#testimonials h2 {
+    color:white;
+}
 .testimonial-image{
     width: 15%;
     border-radius: 100%;
@@ -122,4 +125,15 @@ body {
 .press-logo {
     width: 13%;
     padding: 2rem 2rem 5rem;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 4%;
 }
