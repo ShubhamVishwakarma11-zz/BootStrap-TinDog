@@ -107,6 +107,7 @@ body {
 #testimonials h2 {
     color:white;
 }
+
 .testimonial-image{
     width: 15%;
     border-radius: 100%;
@@ -126,7 +127,7 @@ body {
 }
 
 .press-logo {
-    width: 13%;
+    width: 15%;
     padding: 2rem 2rem 5rem;
 }
 
@@ -139,4 +140,38 @@ body {
 
 .pricing-card {
     padding: 4%;
+}
+
+
+@media (max-width: 990px) {
+    
+    h1{
+        font-size: 3.0rem;
+    }
+    
+    h2 {
+        font-size: 2.0rem;
+    }
+
+    .NavBar-Title-Container {
+        text-align: center;
+        padding: 3% 15% 8%;
+    }
+
+    .title-img {
+        width: 50%;
+        margin-left: 5%;
+        transform: rotate(0);
+        position: static;
+    }
+
+    .press-logo {
+        width: 15rem;
+        padding: 2rem 2rem 5rem;
+    }
+
+    .testimonial-image{
+        width: 35%;
+    }
+
 }
