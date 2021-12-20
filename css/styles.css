@@ -143,6 +143,34 @@ body {
 }
 
 
+/* Call to Action*/
+#cta {
+    text-align: center;
+    background-color: #FF4C68;
+    padding: 15% 20% 10%;
+}
+
+#cta h2{
+    color: white;
+    font-size: 3.5rem;
+}
+
+.cta-btn {
+    margin-top: 55%;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 3% 20% 2%;
+}
+
+.footer-icon {
+    padding: 1.2rem 1.5rem 1.5rem;
+    transform: scale(1.8);
+}
+
 @media (max-width: 990px) {
     
     h1{
@@ -174,4 +202,9 @@ body {
         width: 35%;
     }
 
+    #cta h2{
+        color: white;
+        font-size: 2rem;
+    }
 }
+
