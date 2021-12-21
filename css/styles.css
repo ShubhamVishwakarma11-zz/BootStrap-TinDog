@@ -10,9 +10,8 @@
 */
 
 h1{
-    font-family: 'Montserrat-Black', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
-    font-weight: bold;
     line-height: 1.5;
 }
 
@@ -104,7 +103,7 @@ body {
     background-color: #EF8172;
 }
 
-#testimonials h2 {
+#testimonials, h1 {
     color:white;
 }
 
